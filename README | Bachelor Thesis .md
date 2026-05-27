@@ -1,5 +1,5 @@
 # Wood Supply Chain System Dynamics Simulation
-## Bachelor Thesis — TH Rosenheim | Faculty of Wood Technology and Construction
+## Bachelor Thesis — TH Rosenheim 
 
 **Student:** Jon Gurakuqi | Matriculation No. 1014404
 **Course of Study:** E-Commerce — Bachelor, 8th Semester
