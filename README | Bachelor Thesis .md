@@ -3,8 +3,8 @@
 
 **Student:** Jon Gurakuqi | Matriculation No. 1014404
 **Course of Study:** E-Commerce — Bachelor, 8th Semester
-**First Examiner:** Prof. Dr. Sebastian Feger
-**Second Examiner:** Prof. Dr. Holly Ott
+**First Examiner:** Prof. Dr. Holly Ott
+**Second Examiner:** Prof. Dr. Sebastian Feger
 **Collaboration:** Abdul (AnyLogic Implementation)
 **Institution:** TH Rosenheim — Campus Chiemgau | 2026
 
