@@ -1,4 +1,4 @@
-# Wood Supply Chain System Dynamics Simulation
+[README (1).md](https://github.com/user-attachments/files/28354215/README.1.md)# Wood Supply Chain System Dynamics Simulation
 ## Bachelor Thesis — TH Rosenheim 
 
 **Student:** Jon Gurakuqi | Matriculation No. 1014404
@@ -36,6 +36,122 @@ The simulation will be built in **AnyLogic** using stocks, flows, and feedback l
 ---
 
 ## Repository Structure
+[Uploading README (1).m# Modeling Supply Chain Resilience in the Bavarian Wood Industry: A System Dynamics Approach
+
+**Bachelor Thesis** | TH Rosenheim | E-Commerce B.A.
+
+| | |
+|---|---|
+| Student | Jon Gurakuqi (1014404) |
+| First Examiner | Prof. Dr. Holly Ott |
+| Second Examiner | Prof. Dr. Sebastian Feger |
+| Practice Partner | Abdul Rehman Mushtaq |
+| Registration | 30.04.2026 |
+| Deadline | 29.09.2026 |
+| Region | Sudostoberbayern (SOB) |
+
+---
+
+## What this thesis does
+
+Develops a conceptual System Dynamics model for the wood supply chain in Sudostoberbayern. Maps the flow of wood from forest to sawmill to Zimmerer (timber construction firms) and tests how external disruptions affect price stability.
+
+Jon builds the conceptual model (CLDs, stocks, flows, feedback loops). Abdul implements it in AnyLogic.
+
+## Region
+
+Sudostoberbayern (SOB): Landkreise Traunstein, Berchtesgadener Land, Rosenheim (Stadt + Land), Muhldorf am Inn, Altotting. ~178,700 ha forest | ~5,400 km2 | ~830,000 inhabitants.
+
+## The MFA
+
+```
+                      Outside Region (AT, CZ)
+                           |
+                      Imports 0.8M m3
+                           |
+                           v
+Regional Forest ----> Regional Sawmills ----> Zimmerer / Builders
+ ~178,700 ha            77 mills                200-250 firms
+ ~1.4M Fm/yr            59% yield               27% Holzbauquote
+ 52% Schadholz          No Grosssagewerk        100-180K m3/yr
+ Fichte 64-66%               |
+      |                      |---> Exports 2.8M m3 (USA, AT, IT)
+      |                      |---> By-products 41% (bark, sawdust)
+      |
+      |---> Energy wood 37% (pellets, firewood)
+      |---> Roundwood export to AT 2.0M Fm
+                  |
+                  v
+            Austrian Sawmills (Pfeifer, Binderholz, Hasslacher)
+                  |
+                  '---> Sawn timber re-import to Zimmerer
+```
+
+**Key structural issue:** SOB exports roundwood to Austrian mills, then re-imports sawn timber from those same mills.
+
+## Task split
+
+| Task | Assigned |
+|---|---|
+| Forest data (roundwood supply) | Jon |
+| Construction demand | Jon |
+| Sawn timber products | Abdul |
+| Imports / Exports | Abdul |
+| Zimmerer demand | Abdul |
+| Conceptual SD model | Jon |
+| AnyLogic implementation | Abdul |
+
+## Scenarios
+
+1. **Baseline** - Normal operations, no disruption
+2. **Energy cost shock** - Electricity 17.7 -> 43.3 ct/kWh, gas 3.84 -> 8.06 ct/kWh
+3. **COVID-19 disruption** - Supply + demand hit simultaneously, EPI peak 353
+
+## Resilience metric
+
+Price stability: max % deviation from baseline + months to recover within +/-10%.
+
+## Core data sources
+
+| Source | Content |
+|---|---|
+| BWI4 (2024) | Forest stock baseline |
+| LWF Holzeinschlag | Annual harvest |
+| LWF/CARMEN 2022 | Sawmill reconciliation |
+| LWF Aussenhandel | Trade flows |
+| LWF Holzbau | Construction demand |
+| BaySF Statistikband | State forest data |
+| Bay. Landesamt | Building permits by LK |
+| AELF TS / RO / Toging | Regional forest data |
+
+## Repository structure
+
+```
+/data-general/       Shared data sources (Jon + Abdul)
+/data-jon/           Jon's data (forest + construction)
+/mfa/                Material Flow Analysis models
+/paper-summaries/    Reference paper summaries
+/presentations/      Meeting slides
+/cld/                Causal Loop Diagrams
+```
+
+## Methodology
+
+1. Material Flow Analysis (MFA)
+2. Causal Loop Diagrams (CLDs)
+3. Stock-and-Flow structure
+4. Scenario testing
+5. Resilience measurement
+
+## References
+
+- Sterman, J.D. (2000). Business Dynamics. McGraw-Hill.
+- Forrester, J.W. (1961). Industrial Dynamics. MIT Press.
+- Ma, Zhang, Gao & Liu (2025). Modelling wood supply chain resilience. Nature Scientific Reports.
+- Purnomo, Abdullah & Irawati (2011). SD approach to balancing wood supply. MODSIM.
+- Bashiri et al. (2021). Sustainability risks in coffee supply chain. Sustainability MDPI.
+- Svirakova (2018). Close the Loop! SD in service design. Systems MDPI.
+d…]()
 
 ```
 /
