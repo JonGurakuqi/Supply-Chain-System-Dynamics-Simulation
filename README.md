@@ -1,5 +1,6 @@
-[README (1).md](https://github.com/user-attachments/files/28354215/README.1.md)# Wood Supply Chain System Dynamics Simulation
-## Bachelor Thesis — TH Rosenheim 
+
+## Bachelor Thesis — System Dynamics Simulation of the Bavarian Wood Supply Chain
+
 
 **Student:** Jon Gurakuqi | Matriculation No. 1014404
 **Course of Study:** E-Commerce — Bachelor, 8th Semester
@@ -23,11 +24,52 @@ The thesis is structured as a two-part collaborative project:
 
 The simulation will be built in **AnyLogic** using stocks, flows, and feedback loops derived from the literature review and Material Flow Analysis (MFA) conducted in this thesis.
 
+
+## Abstract
+
+This thesis develops a System Dynamics (SD) simulation framework for the Bavarian
+wood supply chain, with the sawmill as the central node of analysis. The supply chain
+is modelled across four stages — Regional Forest → Regional Sawmills → Wood Products
+→ Zimmerer / House Builders — with additional flows capturing imports from outside the
+region, sawmill exports to other regional customers, and by-products including bark,
+sawdust, and rest wood.
+
+The work is structured as a two-part collaborative project. This thesis contributes the
+literature review, Material Flow Analysis (MFA), and theoretical model framework,
+identifying the relevant stocks, flows, and feedback loops grounded in real Bavarian
+data. A parallel thesis (Abdul Rehman Mushtaq) implements the model in AnyLogic.
+
+The MFA is calibrated against publicly available official statistics, including the fourth
+Bundeswaldinventur (BWI4, October 2024), the LWF/CARMEN Energieholzmarkt Bayern
+2022 report, and annual harvest data from the Bayerische Landesanstalt für Wald und
+Forstwirtschaft (LWF). Three MFA models are developed: a baseline linear flow model,
+a stock-based model with quantified Bavarian volumes and mapped data sources, and a
+disruption scenario model applying a force majeure factor (ff) to simulate sawmill
+capacity constraints under different shock conditions.
+
+Three disruption scenarios are defined and parameterised: a bark beetle-driven supply
+shock, a COVID-19 construction demand collapse, and an energy price shock. Each
+scenario draws on the force majeure formulation from Sinha et al. (2020) and the super
+disruption classification framework from Franco (2021). The theoretical foundation
+combines Sterman's System Dynamics methodology (2000), Buffer Stock Theory (Arrow,
+Harris & Marschak, 1951), the LARG supply chain framework (Cabral et al., 2012 via
+Sinha et al., 2020), and Ivanov's supply chain resilience classification (2021 via Franco,
+2021).
+
+The central research question is: Can the regional Bavarian wood supply chain still
+supply enough timber to Zimmerer / house builders when demand increases, forest
+supply changes, or imports become difficult?Sonnet 4.6 Low
+
+
+
+
+
 ---
 
 ## Thesis Focus
 
 **Central question:** How do disruptions propagate through the Bavarian wood supply chain — specifically at the sawmill stage — and how can a System Dynamics model simulate inventory accumulation, demand response, and recovery dynamics?
+
 
 **Geographic scope:** Bavaria (Freistaat Bayern), Germany
 **Supply chain focus:** Forest → Sawmill → Processed timber → Market
@@ -62,7 +104,7 @@ Jon builds the conceptual model (CLDs, stocks, flows, feedback loops). Abdul imp
 
 Sudostoberbayern (SOB): Landkreise Traunstein, Berchtesgadener Land, Rosenheim (Stadt + Land), Muhldorf am Inn, Altotting. ~178,700 ha forest | ~5,400 km2 | ~830,000 inhabitants.
 
-## The MFA
+## The MFA - A
 
 ```
                       Outside Region (AT, CZ)
@@ -101,7 +143,7 @@ Regional Forest ----> Regional Sawmills ----> Zimmerer / Builders
 | Conceptual SD model | Jon |
 | AnyLogic implementation | Abdul |
 
-## Scenarios
+## 3 Scenarios
 
 1. **Baseline** - Normal operations, no disruption
 2. **Energy cost shock** - Electricity 17.7 -> 43.3 ct/kWh, gas 3.84 -> 8.06 ct/kWh
