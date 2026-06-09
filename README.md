@@ -133,7 +133,7 @@ Regional Forest ----> Regional Sawmills ----> Zimmerer / Builders
 
 
 
-The base structure. Three stages, the core external flows, no quantities yet. This is the skeleton the analysis starts from.
+Without Data | The base structure. Three stages, the core external flows, no quantities yet. This is the skeleton the analysis starts from.
 
 ```
                     Outside Region (AT, CZ)
@@ -149,7 +149,7 @@ Regional Forest ----> Regional Sawmills ----> Zimmerer / Builders
       |---> Energy wood (pellets, firewood)
 ```
 
-The base structure with real Südostoberbayern data filled into each stage and flow. Same skeleton as MFA-B, now grounded in numbers.
+With Data | The base structure with real Südostoberbayern data filled into each stage and flow. Same skeleton as MFA-B, now grounded in numbers.
 
   
 ```
