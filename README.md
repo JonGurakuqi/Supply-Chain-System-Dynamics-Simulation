@@ -131,6 +131,54 @@ Regional Forest ----> Regional Sawmills ----> Zimmerer / Builders
 
 **Key structural issue:** SOB exports roundwood to Austrian mills, then re-imports sawn timber from those same mills.
 
+
+
+The base structure. Three stages, the core external flows, no quantities yet. This is the skeleton the analysis starts from.
+
+```
+                    Outside Region (AT, CZ)
+                           |
+                      Imported wood
+                           |
+                           v
+Regional Forest ----> Regional Sawmills ----> Zimmerer / Builders
+      |                      |
+      |                      |---> Exports
+      |                      |---> By-products (bark, sawdust, chips)
+      |
+      |---> Energy wood (pellets, firewood)
+```
+
+The base structure with real Südostoberbayern data filled into each stage and flow. Same skeleton as MFA-B, now grounded in numbers.
+
+  
+```
+                    Outside Region (AT, CZ)
+                           |
+                      Imports 0.8M m3
+                           |
+                           v
+Regional Forest ----> Regional Sawmills ----> Zimmerer / Builders
+ ~178,700 ha            77 mills                200-250 firms
+ ~1.4M Fm/yr            59% yield               27% Holzbauquote
+ 52% Schadholz          No Grosssagewerk        100-180K m3/yr
+ Fichte 64-66%               |
+      |                      |---> Exports 2.8M m3 (USA, AT, IT)
+      |                      |---> By-products 41% (bark, sawdust)
+      |
+      |---> Energy wood 37% (pellets, firewood)
+```
+ 
+---
+
+
+
+
+
+
+
+
+
 ## Task split
 
 | Task | Assigned |
