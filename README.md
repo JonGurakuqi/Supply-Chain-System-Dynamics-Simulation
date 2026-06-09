@@ -104,7 +104,7 @@ Jon builds the conceptual model (CLDs, stocks, flows, feedback loops). Abdul imp
 
 Sudostoberbayern (SOB): Landkreise Traunstein, Berchtesgadener Land, Rosenheim (Stadt + Land), Muhldorf am Inn, Altotting. ~178,700 ha forest | ~5,400 km2 | ~830,000 inhabitants.
 
-## The MFA - A
+## The MFA - A | The improved version with the Austria loop
 
 ```
                       Outside Region (AT, CZ)
