@@ -58,7 +58,7 @@ Sinha et al., 2020), and Ivanov's supply chain resilience classification (2021 v
 
 The central research question is: Can the regional Bavarian wood supply chain still
 supply enough timber to Zimmerer / house builders when demand increases, forest
-supply changes, or imports become difficult?Sonnet 4.6 Low
+supply changes, or imports become difficult?
 
 
 
