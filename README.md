@@ -195,7 +195,6 @@ Regional Forest ----> Regional Sawmills ----> Zimmerer / Builders
 
 1. **Baseline** - Normal operations, no disruption
 2. **Energy cost shock** - Electricity 17.7 -> 43.3 ct/kWh, gas 3.84 -> 8.06 ct/kWh
-3. **COVID-19 disruption** - Supply + demand hit simultaneously, EPI peak 353
 
 ## Resilience metric
 
@@ -373,8 +372,6 @@ To be confirmed with Prof. Dr. Ott after MFA review.
 | Scenario | Shock Type | ff Value | Duration |
 |---|---|---|---|
 | Baseline | No disruption | 1.0 | Full run |
-| Bark beetle outbreak | Supply shock — forced harvest surge | 0.6 - 0.8 | 2-3 years |
-| COVID-19 demand collapse | Demand shock — construction halt | 0.4 - 0.6 | 6-12 months |
 | Energy price shock | Cost increase — logistics disruption | 0.7 - 0.9 | 12-24 months |
 | Sawmill capacity reduction | Processing constraint | 0.5 | 12 months |
 
@@ -393,15 +390,13 @@ To be confirmed with Prof. Dr. Ott after MFA review.
 
 ## Theoretical Framework
 
-Four theories ground the model design:
+Two theories ground the model design:
 
 1. **Buffer Stock Theory** — Arrow, Harris & Marschak (1951): firms hold excess inventory as a hedge against supply and demand uncertainty. Applied to sawmill inventory accumulation under disruption.
 
 2. **System Dynamics Methodology** — Sterman (2000): stocks, flows, and feedback loops model complex system behaviour over time.
 
-3. **LARG Framework** — Cabral et al. (2012) via Sinha et al. (2020): Lean-Agile-Resilient-Green supply chain design — applied to identify vulnerability points in the Bavarian wood SC.
 
-4. **Super Disruption Classification** — Ivanov (2021) via Franco (2021): distinguishes instantaneous from long-lasting supply chain crises across four criteria — impact, scope, recovery, timing.
 
 ---
 
@@ -423,4 +418,4 @@ Four theories ground the model design:
 
 ---
 
-*Last updated: May 2026 — Jon Gurakuqi, TH Rosenheim*
+*Last updated: June 2026 — Jon Gurakuqi, TH Rosenheim*
