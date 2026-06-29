@@ -11,6 +11,80 @@
 
 ---
 
+ENERGY-PRICE SHOCK (Scenario 2)
+                       electricity  17.7 → 43.3 ct/kWh
+                       gas           3.84 → 8.06 ct/kWh
+                                      |
+        +-----------------------------+-----------------------------+
+        |                             |                             |
+  1. TRANSPORTATION             2. DEMAND                  3. ENERGY FOR FACTORIES
+  (fuel + logistics:           (higher building            (sawmill electricity + gas:
+   roundwood haulage,           + heating costs            sawing, kiln drying,
+   import of BSH/BSP/            soften construction        handling)
+   boards from outside)         demand)                          |
+        |                             |                          v
+        v                             v                 raises sawmill operating
+  raises delivered cost        lowers Zimmerer            cost  →  squeezes margin
+  of products to carpenters    order rate                       |
+        |                             |                          |
+        +--------------+--------------+--------------------------+
+                       |
+                       v
+            SAWMILL STAGE (central node)
+            force majeure factor  ff ≈ 0.7 - 0.9   (sustained 12-24 months)
+            → throughput ↓ , unit cost ↑ , price ↑ , margin ↓
+
+
+
+
+
+
+Outside SOB region (AT, CZ, other DE) - Improved MFA
+                                       |
+        +------------------+-----------+-----------+------------------+
+        |                  |                       |                  |
+   Glulam / BSH        CLT / BSP            Standard dim. boards   (roundwood
+   (engineered,        (engineered,         (KVH, solid wood)      imports to
+    from outside)       from outside)        from outside)          mills)
+        |                  |                       |                  |
+        |                  |                       |                  v
+        |                  |                       |        Regional Sawmills
+        |                  |                       |         ~77 mills, 59% yield
+        |                  |                       |         no Großsägewerk
+        |                  |                       |              |
+        |                  |                       |              |--> Standard dim.
+        |                  |                       |              |    boards / KVH
+        |                  |                       |              |    (regional, solid)
+        |                  |                       |              |
+        v                  v                       v              v
+   +-------------------------------------------------------------------+
+   |                  ZIMMERER / HOUSE BUILDERS                        |
+   |        ~200-250 firms | 27% Holzbauquote | 100-180K m3/yr         |
+   +-------------------------------------------------------------------+
+
+Regional Forest --> Regional Sawmills (central node)
+ ~178,700 ha          |--> Exports (roundwood to AT mills; sawn timber)
+ ~1.4M Fm/yr          |--> By-products 41% (bark, sawdust, chips)
+ 52% Schadholz        |
+ Fichte 64-66%        |--> (sawmill factory energy: electricity + gas)  <-- see S3
+      |
+      |--> Energy wood 37% (pellets, firewood)
+      |--> Roundwood export to AT 2.0M Fm --> Austrian mills
+                 (Pfeifer, Binderholz, Hasslacher) --> sawn re-import
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Overview
 
 This repository contains the modelling work, data sources, and literature framework for a **System Dynamics (SD) simulation of the Bavarian wood supply chain**, with a focus on sawmill dynamics.
